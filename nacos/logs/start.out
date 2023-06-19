@@ -1,0 +1,7 @@
+D:\Code\JDK18/bin/java  -Xms512m -Xmx512m -Xmn256m -Dnacos.standalone=true -Dnacos.member.list= -Xlog:gc*:file=/c/Users/èŽ‰/Desktop/project/SpringCloud2/nacos/logs/nacos_gc.log:time,tags:filecount=10,filesize=102400 -Dloader.path=/c/Users/èŽ‰/Desktop/project/SpringCloud2/nacos/plugins/health,/c/Users/èŽ‰/Desktop/project/SpringCloud2/nacos/plugins/cmdb -Dnacos.home=/c/Users/èŽ‰/Desktop/project/SpringCloud2/nacos -jar /c/Users/èŽ‰/Desktop/project/SpringCloud2/nacos/target/nacos-server.jar  --spring.config.additional-location=file:/c/Users/èŽ‰/Desktop/project/SpringCloud2/nacos/conf/ --logging.config=/c/Users/èŽ‰/Desktop/project/SpringCloud2/nacos/conf/nacos-logback.xml --server.max-http-header-size=524288
+nohup: ignoring input
+[0.002s][error][logging] Error opening log file '/c/Users/Àò/Desktop/project/SpringCloud2/nacos/logs/nacos_gc.log': No such file or directory
+[0.002s][error][logging] Initialization of output 'file=/c/Users/Àò/Desktop/project/SpringCloud2/nacos/logs/nacos_gc.log' using options 'filecount=10,filesize=102400' failed.
+Invalid -Xlog option '-Xlog:gc*:file=/c/Users/Àò/Desktop/project/SpringCloud2/nacos/logs/nacos_gc.log:time,tags:filecount=10,filesize=102400', see error log for details.
+Error: Could not create the Java Virtual Machine.
+Error: A fatal exception has occurred. Program will exit.

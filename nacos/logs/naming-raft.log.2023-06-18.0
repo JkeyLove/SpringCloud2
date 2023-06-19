@@ -1,0 +1,84 @@
+2023-06-18 23:48:56,915 INFO raft peers changed: [Member{ip='192.168.56.1', port=8848, state=UP, extendInfo={raftPort=7848}}]
+
+2023-06-18 23:48:56,936 INFO initializing Raft sub-system
+
+2023-06-18 23:48:56,937 INFO finish loading all datums, size: 0 cost 1 ms.
+
+2023-06-18 23:48:56,940 INFO cache loaded, datum count: 0, current term: 0
+
+2023-06-18 23:48:56,940 INFO finish to load data from disk, cost: 4 ms.
+
+2023-06-18 23:48:56,943 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2023-06-18 23:48:57,405 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2023-06-18 23:48:57,423 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2023-06-18 23:49:01,916 WARN start to close old raft protocol!!!
+
+2023-06-18 23:49:01,916 WARN stop old raft protocol task for notifier
+
+2023-06-18 23:49:01,916 WARN stop old raft protocol task for master task
+
+2023-06-18 23:49:01,916 WARN stop old raft protocol task for heartbeat task
+
+2023-06-18 23:49:01,916 WARN clean old cache datum for old raft
+
+2023-06-18 23:49:01,916 WARN start to close old raft protocol!!!
+
+2023-06-18 23:49:01,916 WARN stop old raft protocol task for notifier
+
+2023-06-18 23:49:01,916 WARN stop old raft protocol task for master task
+
+2023-06-18 23:49:01,916 WARN stop old raft protocol task for heartbeat task
+
+2023-06-18 23:49:01,916 WARN clean old cache datum for old raft
+
+2023-06-18 23:49:01,916 WARN start to move old raft protocol metadata
+
+2023-06-18 23:49:01,917 WARN start to move old raft protocol metadata
+
+2023-06-18 23:49:01,918 INFO raft peers changed: [Member{ip='192.168.56.1', port=8848, state=UP, extendInfo={lastRefreshTime=1687103341917, raftPort=7848, version=1.4.3}}]
+
+2023-06-18 23:50:30,974 INFO raft peers changed: [Member{ip='192.168.56.1', port=8848, state=UP, extendInfo={raftPort=7848}}]
+
+2023-06-18 23:50:31,017 INFO initializing Raft sub-system
+
+2023-06-18 23:50:31,018 INFO finish loading all datums, size: 0 cost 1 ms.
+
+2023-06-18 23:50:31,021 INFO cache loaded, datum count: 0, current term: 0
+
+2023-06-18 23:50:31,021 INFO finish to load data from disk, cost: 4 ms.
+
+2023-06-18 23:50:31,025 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2023-06-18 23:50:32,052 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2023-06-18 23:50:32,076 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2023-06-18 23:50:35,956 WARN start to close old raft protocol!!!
+
+2023-06-18 23:50:35,956 WARN stop old raft protocol task for notifier
+
+2023-06-18 23:50:35,956 WARN stop old raft protocol task for master task
+
+2023-06-18 23:50:35,956 WARN stop old raft protocol task for heartbeat task
+
+2023-06-18 23:50:35,956 WARN clean old cache datum for old raft
+
+2023-06-18 23:50:35,956 WARN start to close old raft protocol!!!
+
+2023-06-18 23:50:35,956 WARN stop old raft protocol task for notifier
+
+2023-06-18 23:50:35,956 WARN stop old raft protocol task for master task
+
+2023-06-18 23:50:35,956 WARN stop old raft protocol task for heartbeat task
+
+2023-06-18 23:50:35,956 WARN clean old cache datum for old raft
+
+2023-06-18 23:50:35,956 WARN start to move old raft protocol metadata
+
+2023-06-18 23:50:35,958 WARN start to move old raft protocol metadata
+
+2023-06-18 23:50:35,959 INFO raft peers changed: [Member{ip='192.168.56.1', port=8848, state=UP, extendInfo={lastRefreshTime=1687103435958, raftPort=7848, version=1.4.3}}]
+
