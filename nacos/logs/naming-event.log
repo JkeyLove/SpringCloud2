@@ -274,3 +274,55 @@
 
 2023-06-20 19:32:09,023 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 
 
+2023-06-20 20:16:25,275 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8201:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-06-20 20:16:25,279 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8201_true,
+
+2023-06-20 20:16:27,725 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.56.1:8202:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2023-06-20 20:16:27,725 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8202_true,192.168.56.1:8201_true,
+
+2023-06-20 20:16:30,355 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8101:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-06-20 20:16:30,355 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8101_true,
+
+2023-06-20 20:16:33,697 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.56.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2023-06-20 20:16:33,697 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8102_true,192.168.56.1:8101_true,
+
+2023-06-20 20:16:39,750 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8301:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-06-20 20:16:39,750 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.56.1:8301_true,
+
+2023-06-20 20:29:27,554 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8101:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-06-20 20:29:27,554 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8102_true,
+
+2023-06-20 20:29:27,568 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.56.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2023-06-20 20:29:27,569 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2023-06-20 20:30:53,592 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8101:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-06-20 20:30:53,592 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8101_true,
+
+2023-06-20 20:30:55,888 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.56.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2023-06-20 20:30:55,888 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8102_true,192.168.56.1:8101_true,
+
+2023-06-20 20:45:47,893 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8101:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-06-20 20:45:47,893 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8102_true,
+
+2023-06-20 20:45:47,926 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.56.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2023-06-20 20:45:47,926 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2023-06-20 20:46:14,571 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8101:unknown:Guangzhou_1.0_true_false_Guangzhou]
+
+2023-06-20 20:46:14,571 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8101_true,
+
+2023-06-20 20:46:16,355 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.56.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2023-06-20 20:46:16,355 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8102_true,192.168.56.1:8101_true,
+
