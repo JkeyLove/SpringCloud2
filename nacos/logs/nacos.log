@@ -1,288 +1,162 @@
-2023-06-20 00:06:21,683 INFO [capacityManagement] start correct usage
+2023-06-22 16:41:45,223 INFO Starting Nacos v1.4.3 on BaBa with PID 7264 (C:\Users\莉\Desktop\project\SpringCloud2\nacos\target\nacos-server.jar started by 莉 in C:\Users\莉\Desktop\project\SpringCloud2\nacos)
 
-2023-06-20 00:06:21,699 INFO [capacityManagement] end correct usage, cost: 0s
+2023-06-22 16:41:45,224 INFO The following profiles are active: standalone
 
-2023-06-20 00:06:21,823 WARN clearConfigHistory start
+2023-06-22 16:41:47,442 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4a335fa8' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 
-2023-06-20 00:16:21,711 INFO [capacityManagement] start correct usage
+2023-06-22 16:41:47,452 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 
-2023-06-20 00:16:21,711 INFO [capacityManagement] end correct usage, cost: 0s
+2023-06-22 16:41:47,945 INFO Tomcat initialized with port(s): 8848 (http)
 
-2023-06-20 00:16:21,835 WARN clearConfigHistory start
+2023-06-22 16:41:47,980 INFO Starting service [Tomcat]
 
-2023-06-20 00:26:21,713 INFO [capacityManagement] start correct usage
+2023-06-22 16:41:47,981 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
 
-2023-06-20 00:26:21,713 INFO [capacityManagement] end correct usage, cost: 0s
+2023-06-22 16:41:47,993 INFO Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
 
-2023-06-20 00:26:21,838 WARN clearConfigHistory start
+2023-06-22 16:41:47,993 INFO APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
 
-2023-06-20 00:36:21,716 INFO [capacityManagement] start correct usage
+2023-06-22 16:41:47,994 INFO APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
 
-2023-06-20 00:36:21,716 INFO [capacityManagement] end correct usage, cost: 0s
+2023-06-22 16:41:48,000 INFO OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
 
-2023-06-20 00:36:21,841 WARN clearConfigHistory start
+2023-06-22 16:41:48,341 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 
-2023-06-20 12:57:48,808 INFO Starting Nacos v1.4.3 on BaBa with PID 22272 (C:\Users\莉\Desktop\project\SpringCloud2\nacos\target\nacos-server.jar started by 莉 in C:\Users\莉\Desktop\project\SpringCloud2\nacos)
+2023-06-22 16:41:48,391 INFO Initializing Spring embedded WebApplicationContext
 
-2023-06-20 12:57:48,808 INFO The following profiles are active: standalone
+2023-06-22 16:41:48,391 INFO Root WebApplicationContext: initialization completed in 3118 ms
 
-2023-06-20 12:57:51,009 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@11eadcba' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-22 16:41:48,830 INFO HikariPool-1 - Starting...
 
-2023-06-20 12:57:51,018 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-22 16:41:48,837 WARN Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
 
-2023-06-20 12:57:51,512 INFO Tomcat initialized with port(s): 8848 (http)
+2023-06-22 16:41:49,071 INFO HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
 
-2023-06-20 12:57:51,557 INFO Starting service [Tomcat]
+2023-06-22 16:41:49,073 INFO HikariPool-1 - Start completed.
 
-2023-06-20 12:57:51,557 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-06-22 16:41:49,752 INFO Nacos-related cluster resource initialization
 
-2023-06-20 12:57:51,570 INFO Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-06-22 16:41:49,761 INFO The cluster resource is initialized
 
-2023-06-20 12:57:51,571 INFO APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-06-22 16:41:50,269 INFO Reflections took 46 ms to scan 1 urls, producing 4 keys and 6 values 
 
-2023-06-20 12:57:51,571 INFO APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-22 16:41:50,306 INFO Reflections took 6 ms to scan 1 urls, producing 6 keys and 26 values 
 
-2023-06-20 12:57:51,578 INFO OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-06-22 16:41:50,324 INFO Reflections took 5 ms to scan 1 urls, producing 3 keys and 15 values 
 
-2023-06-20 12:57:51,933 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-06-22 16:41:50,334 INFO Reflections took 3 ms to scan 1 urls, producing 2 keys and 12 values 
 
-2023-06-20 12:57:51,986 INFO Initializing Spring embedded WebApplicationContext
+2023-06-22 16:41:51,015 INFO Initializing ExecutorService 'applicationTaskExecutor'
 
-2023-06-20 12:57:51,986 INFO Root WebApplicationContext: initialization completed in 3137 ms
+2023-06-22 16:41:51,128 INFO Adding welcome page: class path resource [static/index.html]
 
-2023-06-20 12:57:52,422 INFO HikariPool-1 - Starting...
+2023-06-22 16:41:51,428 INFO Creating filter chain: Ant [pattern='/**'], []
 
-2023-06-20 12:57:52,429 WARN Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2023-06-22 16:41:51,462 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@45f756e6, org.springframework.security.web.context.SecurityContextPersistenceFilter@34332b8d, org.springframework.security.web.header.HeaderWriterFilter@67507df, org.springframework.security.web.csrf.CsrfFilter@79518e00, org.springframework.security.web.authentication.logout.LogoutFilter@4d1ff6b1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f8aba08, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@462abec3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@329548d0, org.springframework.security.web.session.SessionManagementFilter@37854b34, org.springframework.security.web.access.ExceptionTranslationFilter@290e8cab]
 
-2023-06-20 12:57:52,696 INFO HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2023-06-22 16:41:51,538 INFO Initializing ExecutorService 'taskScheduler'
 
-2023-06-20 12:57:52,699 INFO HikariPool-1 - Start completed.
+2023-06-22 16:41:51,560 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
 
-2023-06-20 12:57:53,477 INFO Nacos-related cluster resource initialization
+2023-06-22 16:41:51,676 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
 
-2023-06-20 12:57:53,493 INFO The cluster resource is initialized
+2023-06-22 16:41:51,680 INFO Started Nacos in 7.962 seconds (JVM running for 9.077)
 
-2023-06-20 12:57:54,106 INFO Reflections took 38 ms to scan 1 urls, producing 4 keys and 6 values 
+2023-06-22 16:41:51,681 INFO Nacos started successfully in stand alone mode. use embedded storage
 
-2023-06-20 12:57:54,134 INFO Reflections took 6 ms to scan 1 urls, producing 6 keys and 26 values 
+2023-06-22 16:46:40,618 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
 
-2023-06-20 12:57:54,149 INFO Reflections took 4 ms to scan 1 urls, producing 3 keys and 15 values 
+2023-06-22 16:46:40,618 INFO Initializing Servlet 'dispatcherServlet'
 
-2023-06-20 12:57:54,156 INFO Reflections took 2 ms to scan 1 urls, producing 2 keys and 12 values 
+2023-06-22 16:46:40,629 INFO Completed initialization in 11 ms
 
-2023-06-20 12:57:54,875 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-22 16:51:50,516 INFO [capacityManagement] start correct usage
 
-2023-06-20 12:57:55,000 INFO Adding welcome page: class path resource [static/index.html]
+2023-06-22 16:51:50,530 INFO [capacityManagement] end correct usage, cost: 0s
 
-2023-06-20 12:57:55,342 INFO Creating filter chain: Ant [pattern='/**'], []
+2023-06-22 16:51:50,736 WARN clearConfigHistory start
 
-2023-06-20 12:57:55,373 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@591a4f8e, org.springframework.security.web.context.SecurityContextPersistenceFilter@7978e022, org.springframework.security.web.header.HeaderWriterFilter@45aca496, org.springframework.security.web.csrf.CsrfFilter@1d50a7ca, org.springframework.security.web.authentication.logout.LogoutFilter@56382bc9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5afbd567, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36baa049, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@53ed80d3, org.springframework.security.web.session.SessionManagementFilter@1d6d1d42, org.springframework.security.web.access.ExceptionTranslationFilter@5f174dd2]
+2023-06-22 17:01:50,546 INFO [capacityManagement] start correct usage
 
-2023-06-20 12:57:55,466 INFO Initializing ExecutorService 'taskScheduler'
+2023-06-22 17:01:50,546 INFO [capacityManagement] end correct usage, cost: 0s
 
-2023-06-20 12:57:55,498 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-06-22 17:01:50,748 WARN clearConfigHistory start
 
-2023-06-20 12:57:55,602 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+2023-06-22 17:11:50,553 INFO [capacityManagement] start correct usage
 
-2023-06-20 12:57:55,606 INFO Started Nacos in 8.084 seconds (JVM running for 8.647)
+2023-06-22 17:11:50,554 INFO [capacityManagement] end correct usage, cost: 0s
 
-2023-06-20 12:57:55,606 INFO Nacos started successfully in stand alone mode. use embedded storage
+2023-06-22 17:11:50,757 WARN clearConfigHistory start
 
-2023-06-20 12:58:09,869 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-22 17:21:50,555 INFO [capacityManagement] start correct usage
 
-2023-06-20 12:58:09,870 INFO Initializing Servlet 'dispatcherServlet'
+2023-06-22 17:21:50,555 INFO [capacityManagement] end correct usage, cost: 0s
 
-2023-06-20 12:58:09,881 INFO Completed initialization in 11 ms
+2023-06-22 17:21:50,758 WARN clearConfigHistory start
 
-2023-06-20 18:43:09,780 INFO Starting Nacos v1.4.3 on BaBa with PID 23592 (C:\Users\莉\Desktop\project\SpringCloud2\nacos\target\nacos-server.jar started by 莉 in C:\Users\莉\Desktop\project\SpringCloud2\nacos)
+2023-06-22 17:29:12,211 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m22s321ms171µs400ns).
 
-2023-06-20 18:43:09,780 INFO The following profiles are active: standalone
+2023-06-22 17:31:50,752 WARN clearConfigHistory start
 
-2023-06-20 18:43:11,731 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@12bfd80d' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-22 17:35:42,867 INFO [capacityManagement] start correct usage
 
-2023-06-20 18:43:11,737 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-22 17:35:42,867 INFO [capacityManagement] end correct usage, cost: 0s
 
-2023-06-20 18:43:12,157 INFO Tomcat initialized with port(s): 8848 (http)
+2023-06-22 17:41:50,753 WARN clearConfigHistory start
 
-2023-06-20 18:43:12,194 INFO Starting service [Tomcat]
+2023-06-22 17:45:42,876 INFO [capacityManagement] start correct usage
 
-2023-06-20 18:43:12,194 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-06-22 17:45:42,876 INFO [capacityManagement] end correct usage, cost: 0s
 
-2023-06-20 18:43:12,205 INFO Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-06-22 17:51:50,767 WARN clearConfigHistory start
 
-2023-06-20 18:43:12,205 INFO APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-06-22 17:55:42,891 INFO [capacityManagement] start correct usage
 
-2023-06-20 18:43:12,205 INFO APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-06-22 17:55:42,891 INFO [capacityManagement] end correct usage, cost: 0s
 
-2023-06-20 18:43:12,211 INFO OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-06-22 18:06:36,012 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m23s348ms108µs900ns).
 
-2023-06-20 18:43:12,525 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-06-22 18:06:39,806 WARN clearConfigHistory start
 
-2023-06-20 18:43:12,570 INFO Initializing Spring embedded WebApplicationContext
+2023-06-22 18:14:36,221 INFO [capacityManagement] start correct usage
 
-2023-06-20 18:43:12,570 INFO Root WebApplicationContext: initialization completed in 2748 ms
+2023-06-22 18:14:36,221 INFO [capacityManagement] end correct usage, cost: 0s
 
-2023-06-20 18:43:12,966 INFO HikariPool-1 - Starting...
+2023-06-22 18:16:39,817 WARN clearConfigHistory start
 
-2023-06-20 18:43:12,973 WARN Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2023-06-22 18:24:36,231 INFO [capacityManagement] start correct usage
 
-2023-06-20 18:43:13,235 INFO HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2023-06-22 18:24:36,231 INFO [capacityManagement] end correct usage, cost: 0s
 
-2023-06-20 18:43:13,237 INFO HikariPool-1 - Start completed.
+2023-06-22 18:26:39,831 WARN clearConfigHistory start
 
-2023-06-20 18:43:13,904 INFO Nacos-related cluster resource initialization
+2023-06-22 18:43:50,173 WARN clearConfigHistory start
 
-2023-06-20 18:43:13,911 INFO The cluster resource is initialized
+2023-06-22 18:43:55,671 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m19s332ms862µs500ns).
 
-2023-06-20 18:43:14,354 INFO Reflections took 36 ms to scan 1 urls, producing 4 keys and 6 values 
+2023-06-22 18:50:25,563 INFO [capacityManagement] start correct usage
 
-2023-06-20 18:43:14,384 INFO Reflections took 4 ms to scan 1 urls, producing 6 keys and 26 values 
+2023-06-22 18:50:25,564 INFO [capacityManagement] end correct usage, cost: 0s
 
-2023-06-20 18:43:14,397 INFO Reflections took 4 ms to scan 1 urls, producing 3 keys and 15 values 
+2023-06-22 18:53:50,184 WARN clearConfigHistory start
 
-2023-06-20 18:43:14,405 INFO Reflections took 1 ms to scan 1 urls, producing 2 keys and 12 values 
+2023-06-22 19:00:25,579 INFO [capacityManagement] start correct usage
 
-2023-06-20 18:43:14,985 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-22 19:00:25,580 INFO [capacityManagement] end correct usage, cost: 0s
 
-2023-06-20 18:43:15,098 INFO Adding welcome page: class path resource [static/index.html]
+2023-06-22 19:03:50,195 WARN clearConfigHistory start
 
-2023-06-20 18:43:15,373 INFO Creating filter chain: Ant [pattern='/**'], []
+2023-06-22 20:10:28,531 WARN clearConfigHistory start
 
-2023-06-20 18:43:15,412 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@43acd79e, org.springframework.security.web.context.SecurityContextPersistenceFilter@5a8816cc, org.springframework.security.web.header.HeaderWriterFilter@6f044c58, org.springframework.security.web.csrf.CsrfFilter@69afa141, org.springframework.security.web.authentication.logout.LogoutFilter@3a790e40, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@37baddde, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70d63e05, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e1b061, org.springframework.security.web.session.SessionManagementFilter@4832f03b, org.springframework.security.web.access.ExceptionTranslationFilter@5b275811]
+2023-06-22 20:10:33,171 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h2m7s57ms452µs700ns).
 
-2023-06-20 18:43:15,503 INFO Initializing ExecutorService 'taskScheduler'
+2023-06-22 20:12:02,613 INFO [capacityManagement] start correct usage
 
-2023-06-20 18:43:15,532 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-06-22 20:12:02,614 INFO [capacityManagement] end correct usage, cost: 0s
 
-2023-06-20 18:43:15,628 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+2023-06-22 20:20:28,548 WARN clearConfigHistory start
 
-2023-06-20 18:43:15,632 INFO Started Nacos in 6.999 seconds (JVM running for 7.496)
+2023-06-22 20:22:02,620 INFO [capacityManagement] start correct usage
 
-2023-06-20 18:43:15,632 INFO Nacos started successfully in stand alone mode. use embedded storage
-
-2023-06-20 18:43:21,280 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
-
-2023-06-20 18:43:21,281 INFO Initializing Servlet 'dispatcherServlet'
-
-2023-06-20 18:43:21,308 INFO Completed initialization in 25 ms
-
-2023-06-20 18:53:14,535 INFO [capacityManagement] start correct usage
-
-2023-06-20 18:53:14,549 INFO [capacityManagement] end correct usage, cost: 0s
-
-2023-06-20 18:53:14,704 WARN clearConfigHistory start
-
-2023-06-20 19:03:14,554 INFO [capacityManagement] start correct usage
-
-2023-06-20 19:03:14,555 INFO [capacityManagement] end correct usage, cost: 0s
-
-2023-06-20 19:03:14,724 WARN clearConfigHistory start
-
-2023-06-20 19:13:14,557 INFO [capacityManagement] start correct usage
-
-2023-06-20 19:13:14,557 INFO [capacityManagement] end correct usage, cost: 0s
-
-2023-06-20 19:13:14,730 WARN clearConfigHistory start
-
-2023-06-20 19:23:14,572 INFO [capacityManagement] start correct usage
-
-2023-06-20 19:23:14,573 INFO [capacityManagement] end correct usage, cost: 0s
-
-2023-06-20 19:23:14,743 WARN clearConfigHistory start
-
-2023-06-20 19:33:14,574 INFO [capacityManagement] start correct usage
-
-2023-06-20 19:33:14,575 INFO [capacityManagement] end correct usage, cost: 0s
-
-2023-06-20 19:33:14,744 WARN clearConfigHistory start
-
-2023-06-20 20:15:44,203 INFO Starting Nacos v1.4.3 on BaBa with PID 8084 (C:\Users\莉\Desktop\project\SpringCloud2\nacos\target\nacos-server.jar started by 莉 in C:\Users\莉\Desktop\project\SpringCloud2\nacos)
-
-2023-06-20 20:15:44,203 INFO The following profiles are active: standalone
-
-2023-06-20 20:15:46,546 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@150ab4ed' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-
-2023-06-20 20:15:46,555 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-
-2023-06-20 20:15:47,060 INFO Tomcat initialized with port(s): 8848 (http)
-
-2023-06-20 20:15:47,105 INFO Starting service [Tomcat]
-
-2023-06-20 20:15:47,106 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
-
-2023-06-20 20:15:47,119 INFO Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
-
-2023-06-20 20:15:47,119 INFO APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-
-2023-06-20 20:15:47,120 INFO APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-
-2023-06-20 20:15:47,125 INFO OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
-
-2023-06-20 20:15:47,431 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-
-2023-06-20 20:15:47,498 INFO Initializing Spring embedded WebApplicationContext
-
-2023-06-20 20:15:47,498 INFO Root WebApplicationContext: initialization completed in 3245 ms
-
-2023-06-20 20:15:47,953 INFO HikariPool-1 - Starting...
-
-2023-06-20 20:15:47,960 WARN Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
-
-2023-06-20 20:15:48,230 INFO HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
-
-2023-06-20 20:15:48,233 INFO HikariPool-1 - Start completed.
-
-2023-06-20 20:15:49,052 INFO Nacos-related cluster resource initialization
-
-2023-06-20 20:15:49,066 INFO The cluster resource is initialized
-
-2023-06-20 20:15:49,526 INFO Reflections took 29 ms to scan 1 urls, producing 4 keys and 6 values 
-
-2023-06-20 20:15:49,551 INFO Reflections took 6 ms to scan 1 urls, producing 6 keys and 26 values 
-
-2023-06-20 20:15:49,564 INFO Reflections took 4 ms to scan 1 urls, producing 3 keys and 15 values 
-
-2023-06-20 20:15:49,572 INFO Reflections took 2 ms to scan 1 urls, producing 2 keys and 12 values 
-
-2023-06-20 20:15:50,257 INFO Initializing ExecutorService 'applicationTaskExecutor'
-
-2023-06-20 20:15:50,368 INFO Adding welcome page: class path resource [static/index.html]
-
-2023-06-20 20:15:50,669 INFO Creating filter chain: Ant [pattern='/**'], []
-
-2023-06-20 20:15:50,699 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b5a1d85, org.springframework.security.web.context.SecurityContextPersistenceFilter@36aa52d2, org.springframework.security.web.header.HeaderWriterFilter@516462cc, org.springframework.security.web.csrf.CsrfFilter@44af588b, org.springframework.security.web.authentication.logout.LogoutFilter@28ee7bee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16a35bd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@633cc6b5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@31e130bf, org.springframework.security.web.session.SessionManagementFilter@47b11ec7, org.springframework.security.web.access.ExceptionTranslationFilter@4d3c6593]
-
-2023-06-20 20:15:50,808 INFO Initializing ExecutorService 'taskScheduler'
-
-2023-06-20 20:15:50,845 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
-
-2023-06-20 20:15:50,972 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
-
-2023-06-20 20:15:50,976 INFO Started Nacos in 8.164 seconds (JVM running for 8.807)
-
-2023-06-20 20:15:50,984 INFO Nacos started successfully in stand alone mode. use embedded storage
-
-2023-06-20 20:15:58,765 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
-
-2023-06-20 20:15:58,765 INFO Initializing Servlet 'dispatcherServlet'
-
-2023-06-20 20:15:58,781 INFO Completed initialization in 14 ms
-
-2023-06-20 20:25:49,734 INFO [capacityManagement] start correct usage
-
-2023-06-20 20:25:49,751 INFO [capacityManagement] end correct usage, cost: 0s
-
-2023-06-20 20:25:49,918 WARN clearConfigHistory start
-
-2023-06-20 20:35:49,752 INFO [capacityManagement] start correct usage
-
-2023-06-20 20:35:49,753 INFO [capacityManagement] end correct usage, cost: 0s
-
-2023-06-20 20:35:49,924 WARN clearConfigHistory start
-
-2023-06-20 20:45:49,757 INFO [capacityManagement] start correct usage
-
-2023-06-20 20:45:49,758 INFO [capacityManagement] end correct usage, cost: 0s
-
-2023-06-20 20:45:49,929 WARN clearConfigHistory start
+2023-06-22 20:22:02,620 INFO [capacityManagement] end correct usage, cost: 0s
 

@@ -1,328 +1,206 @@
-2023-06-20 00:08:17,669 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8201:unknown:Guangzhou_1.0_true_false_Guangzhou]
+2023-06-22 16:47:05,833 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.56.1:8202:unknown:Chengdu_1.0_true_false_Chengdu]
 
-2023-06-20 00:08:17,669 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
+2023-06-22 16:47:05,835 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8202_true,
 
-2023-06-20 00:08:17,712 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8101:unknown:Guangzhou_1.0_true_false_Guangzhou]
+2023-06-22 16:47:07,489 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8201:unknown:Guangzhou_1.0_true_false_Guangzhou]
 
-2023-06-20 00:08:17,712 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+2023-06-22 16:47:07,489 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8202_true,192.168.56.1:8201_true,
 
-2023-06-20 00:08:17,724 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8301:unknown:Guangzhou_1.0_true_false_Guangzhou]
+2023-06-22 16:47:13,243 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8101:unknown:Guangzhou_1.0_true_false_Guangzhou]
 
-2023-06-20 00:08:17,724 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.56.1:8301_true,192.168.56.1:8301_true,
+2023-06-22 16:47:13,244 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8101_true,
 
-2023-06-20 00:08:17,732 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8301@Guangzhou in 1, msg: tcp:error:Connection reset
+2023-06-22 16:47:16,319 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.56.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
 
-2023-06-20 00:08:18,821 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8301@DEFAULT in 1, msg: tcp:timeout
+2023-06-22 16:47:16,319 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8102_true,192.168.56.1:8101_true,
 
-2023-06-20 00:08:18,991 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8301@Guangzhou in 2, msg: tcp:timeout
+2023-06-22 16:47:23,631 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8301:unknown:Guangzhou_1.0_true_false_Guangzhou]
 
-2023-06-20 00:08:19,829 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8301@DEFAULT in 2, msg: tcp:timeout
+2023-06-22 16:47:23,632 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.56.1:8301_true,
 
-2023-06-20 00:08:20,981 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.56.1:8301@Guangzhou, region: unknown, msg: tcp:timeout
+2023-06-22 17:29:05,515 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8202@Chengdu@DEFAULT_GROUP@@book-service, region: unknown, msg: client timeout after 15000, last beat: 1687425910123
 
-2023-06-20 00:08:21,076 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.56.1:8301@DEFAULT, region: unknown, msg: tcp:timeout
+2023-06-22 17:29:05,515 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8102@Chengdu@DEFAULT_GROUP@@user-service, region: unknown, msg: client timeout after 15000, last beat: 1687425910713
 
-2023-06-20 00:08:29,283 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.56.1:8202:unknown:Chengdu_1.0_true_false_Chengdu]
+2023-06-22 17:29:05,515 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8301@Guangzhou@DEFAULT_GROUP@@borrow-service, region: unknown, msg: client timeout after 15000, last beat: 1687425913017
 
-2023-06-20 00:08:29,283 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8202_true,
+2023-06-22 17:29:05,875 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8201@Guangzhou@DEFAULT_GROUP@@book-service, region: unknown, msg: client timeout after 15000, last beat: 1687425911927
 
-2023-06-20 00:08:31,562 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.56.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
+2023-06-22 17:29:05,875 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8101@Guangzhou@DEFAULT_GROUP@@user-service, region: unknown, msg: client timeout after 15000, last beat: 1687425912706
 
-2023-06-20 00:08:31,562 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8102_true,
+2023-06-22 17:29:05,977 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.56.1:8102:unknown:Chengdu_1.0_false_false_Chengdu]
 
-2023-06-20 00:08:38,425 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8101:unknown:Guangzhou_1.0_true_false_Guangzhou]
+2023-06-22 17:29:05,977 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8101:unknown:Guangzhou_1.0_false_false_Guangzhou]
 
-2023-06-20 00:08:38,425 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8102_true,192.168.56.1:8101_true,
+2023-06-22 17:29:05,977 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
 
-2023-06-20 00:08:41,540 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8201:unknown:Guangzhou_1.0_true_false_Guangzhou]
+2023-06-22 17:29:05,981 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.56.1:8202:unknown:Chengdu_1.0_false_false_Chengdu]
 
-2023-06-20 00:08:41,540 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8202_true,192.168.56.1:8201_true,
+2023-06-22 17:29:05,981 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8201:unknown:Guangzhou_1.0_false_false_Guangzhou]
 
-2023-06-20 00:08:44,926 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8301:unknown:Guangzhou_1.0_true_false_Guangzhou]
+2023-06-22 17:29:05,981 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
 
-2023-06-20 00:08:44,926 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.56.1:8301_false,192.168.56.1:8301_true,192.168.56.1:8301_false,
+2023-06-22 17:29:05,987 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8301:unknown:Guangzhou_1.0_false_false_Guangzhou]
 
-2023-06-20 00:08:44,932 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8301@Guangzhou in 1, msg: tcp:ok+
+2023-06-22 17:29:05,988 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 
 
-2023-06-20 00:08:48,191 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8301@DEFAULT in 1, msg: tcp:ok+
+2023-06-22 17:29:07,441 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.56.1:8202:unknown:Chengdu_1.0_true_false_Chengdu]
 
-2023-06-20 00:08:49,932 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8301@Guangzhou in 2, msg: tcp:ok+
+2023-06-22 17:29:07,442 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8202_true,
 
-2023-06-20 00:08:53,196 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8301@DEFAULT in 2, msg: tcp:ok+
+2023-06-22 17:29:08,034 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.56.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
 
-2023-06-20 00:08:53,696 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.56.1:8301@Guangzhou, region: unknown, msg: tcp:ok+
+2023-06-22 17:29:08,034 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8102_true,
 
-2023-06-20 00:08:56,950 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.56.1:8301@DEFAULT, region: unknown, msg: tcp:ok+
+2023-06-22 17:29:09,249 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8201:unknown:Guangzhou_1.0_true_false_Guangzhou]
 
-2023-06-20 00:08:59,929 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.56.1:8202:unknown:Chengdu_1.0_true_false_Chengdu]
+2023-06-22 17:29:09,249 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8202_true,192.168.56.1:8201_true,
 
-2023-06-20 00:08:59,929 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8201_true,
+2023-06-22 17:29:10,027 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8101:unknown:Guangzhou_1.0_true_false_Guangzhou]
 
-2023-06-20 00:09:04,994 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.56.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
+2023-06-22 17:29:10,027 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8102_true,192.168.56.1:8101_true,
 
-2023-06-20 00:09:04,994 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8101_true,
+2023-06-22 17:29:10,337 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8301:unknown:Guangzhou_1.0_true_false_Guangzhou]
 
-2023-06-20 00:24:28,439 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8201:unknown:Guangzhou_1.0_true_false_Guangzhou]
+2023-06-22 17:29:10,338 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.56.1:8301_true,
 
-2023-06-20 00:24:28,439 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
+2023-06-22 18:06:36,434 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8102@Chengdu@DEFAULT_GROUP@@user-service, region: unknown, msg: client timeout after 15000, last beat: 1687427861079
 
-2023-06-20 00:24:28,494 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8101:unknown:Guangzhou_1.0_true_false_Guangzhou]
+2023-06-22 18:06:36,434 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8202@Chengdu@DEFAULT_GROUP@@book-service, region: unknown, msg: client timeout after 15000, last beat: 1687427860377
 
-2023-06-20 00:24:28,494 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+2023-06-22 18:06:36,434 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8301@Guangzhou@DEFAULT_GROUP@@borrow-service, region: unknown, msg: client timeout after 15000, last beat: 1687427858407
 
-2023-06-20 00:24:28,545 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8301:unknown:Guangzhou_1.0_true_false_Guangzhou]
+2023-06-22 18:06:36,437 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.56.1:8102:unknown:Chengdu_1.0_false_false_Chengdu]
 
-2023-06-20 00:24:28,546 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.56.1:8301_true,192.168.56.1:8301_true,
+2023-06-22 18:06:36,437 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8101_true,
 
-2023-06-20 00:24:28,667 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8301@Guangzhou in 1, msg: tcp:error:Connection reset
+2023-06-22 18:06:36,438 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.56.1:8202:unknown:Chengdu_1.0_false_false_Chengdu]
 
-2023-06-20 00:24:29,227 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8301@DEFAULT in 1, msg: tcp:timeout
+2023-06-22 18:06:36,438 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8201_true,
 
-2023-06-20 00:24:29,926 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8301@Guangzhou in 2, msg: tcp:timeout
+2023-06-22 18:06:36,438 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8301:unknown:Guangzhou_1.0_false_false_Guangzhou]
 
-2023-06-20 00:24:30,238 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8301@DEFAULT in 2, msg: tcp:timeout
+2023-06-22 18:06:36,438 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 
 
-2023-06-20 00:24:31,493 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.56.1:8301@DEFAULT, region: unknown, msg: tcp:timeout
+2023-06-22 18:06:36,749 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8301:unknown:Guangzhou_1.0_true_false_Guangzhou]
 
-2023-06-20 00:24:31,927 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.56.1:8301@Guangzhou, region: unknown, msg: tcp:timeout
+2023-06-22 18:06:36,749 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.56.1:8301_true,
 
-2023-06-20 00:24:40,356 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.56.1:8202:unknown:Chengdu_1.0_true_false_Chengdu]
+2023-06-22 18:06:38,714 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.56.1:8202:unknown:Chengdu_1.0_true_false_Chengdu]
 
-2023-06-20 00:24:40,356 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8202_true,
+2023-06-22 18:06:38,715 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8202_true,192.168.56.1:8201_true,
 
-2023-06-20 00:24:43,924 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.56.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
+2023-06-22 18:06:39,417 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.56.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
 
-2023-06-20 00:24:43,924 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8102_true,
+2023-06-22 18:06:39,417 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8102_true,192.168.56.1:8101_true,
 
-2023-06-20 00:24:48,344 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8101:unknown:Guangzhou_1.0_true_false_Guangzhou]
+2023-06-22 18:43:49,407 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8102@Chengdu@DEFAULT_GROUP@@user-service, region: unknown, msg: client timeout after 15000, last beat: 1687429676684
 
-2023-06-20 00:24:48,344 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8102_true,192.168.56.1:8101_true,
+2023-06-22 18:43:49,407 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8101@Guangzhou@DEFAULT_GROUP@@user-service, region: unknown, msg: client timeout after 15000, last beat: 1687429678675
 
-2023-06-20 00:24:51,111 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8201:unknown:Guangzhou_1.0_true_false_Guangzhou]
+2023-06-22 18:43:49,408 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8301@Guangzhou@DEFAULT_GROUP@@borrow-service, region: unknown, msg: client timeout after 15000, last beat: 1687429679036
 
-2023-06-20 00:24:51,111 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8202_true,192.168.56.1:8201_true,
+2023-06-22 18:43:49,409 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8202@Chengdu@DEFAULT_GROUP@@book-service, region: unknown, msg: client timeout after 15000, last beat: 1687429676123
 
-2023-06-20 00:24:53,861 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8301:unknown:Guangzhou_1.0_true_false_Guangzhou]
+2023-06-22 18:43:49,409 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8201@Guangzhou@DEFAULT_GROUP@@book-service, region: unknown, msg: client timeout after 15000, last beat: 1687429677915
 
-2023-06-20 00:24:53,861 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.56.1:8301_false,192.168.56.1:8301_true,192.168.56.1:8301_false,
+2023-06-22 18:43:49,414 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8301:unknown:Guangzhou_1.0_false_false_Guangzhou]
 
-2023-06-20 00:24:55,901 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8301@Guangzhou in 1, msg: tcp:ok+
+2023-06-22 18:43:49,414 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 
 
-2023-06-20 00:24:58,600 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8301@DEFAULT in 1, msg: tcp:ok+
+2023-06-22 18:43:49,414 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.56.1:8202:unknown:Chengdu_1.0_false_false_Chengdu]
 
-2023-06-20 00:25:00,902 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8301@Guangzhou in 2, msg: tcp:ok+
+2023-06-22 18:43:49,414 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8201_false,
 
-2023-06-20 00:25:03,606 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8301@DEFAULT in 2, msg: tcp:ok+
+2023-06-22 18:43:49,415 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8201:unknown:Guangzhou_1.0_false_false_Guangzhou]
 
-2023-06-20 00:25:04,662 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.56.1:8301@Guangzhou, region: unknown, msg: tcp:ok+
+2023-06-22 18:43:49,415 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
 
-2023-06-20 00:25:07,367 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.56.1:8301@DEFAULT, region: unknown, msg: tcp:ok+
+2023-06-22 18:43:49,421 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.56.1:8102:unknown:Chengdu_1.0_false_false_Chengdu]
 
-2023-06-20 12:57:54,368 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8301:unknown:Guangzhou_1.0_true_false_Guangzhou]
+2023-06-22 18:43:49,422 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8101:unknown:Guangzhou_1.0_false_false_Guangzhou]
 
-2023-06-20 12:57:54,369 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8301:unknown:DEFAULT_1.0_false_false_DEFAULT]
+2023-06-22 18:43:49,422 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
 
-2023-06-20 12:57:54,371 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.56.1:8301_true,192.168.56.1:8301_false,
+2023-06-22 18:43:50,452 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.56.1:8202:unknown:Chengdu_1.0_true_false_Chengdu]
 
-2023-06-20 12:57:54,591 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.56.1:8301_true,192.168.56.1:8301_false,
+2023-06-22 18:43:50,452 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8202_true,
 
-2023-06-20 12:57:54,591 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.56.1:8301_true,192.168.56.1:8301_false,
+2023-06-22 18:43:51,012 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.56.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
 
-2023-06-20 12:57:57,713 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8301@Guangzhou in 1, msg: tcp:timeout
+2023-06-22 18:43:51,013 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8102_true,
 
-2023-06-20 12:58:00,601 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8301@Guangzhou in 2, msg: tcp:timeout
+2023-06-22 18:43:52,251 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8201:unknown:Guangzhou_1.0_true_false_Guangzhou]
 
-2023-06-20 12:58:04,185 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.56.1:8301@Guangzhou, region: unknown, msg: tcp:timeout
+2023-06-22 18:43:52,251 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8202_true,192.168.56.1:8201_true,
 
-2023-06-20 12:58:30,470 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8201:unknown:Guangzhou_1.0_true_false_Guangzhou]
+2023-06-22 18:43:53,001 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8101:unknown:Guangzhou_1.0_true_false_Guangzhou]
 
-2023-06-20 12:58:30,471 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8201_true,
+2023-06-22 18:43:53,001 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8102_true,192.168.56.1:8101_true,
 
-2023-06-20 12:58:32,802 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.56.1:8202:unknown:Chengdu_1.0_true_false_Chengdu]
+2023-06-22 18:43:53,365 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8301:unknown:Guangzhou_1.0_true_false_Guangzhou]
 
-2023-06-20 12:58:32,802 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8202_true,192.168.56.1:8201_true,
+2023-06-22 18:43:53,365 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.56.1:8301_true,
 
-2023-06-20 12:58:36,194 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8101:unknown:Guangzhou_1.0_true_false_Guangzhou]
+2023-06-22 20:10:27,537 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8202@Chengdu@DEFAULT_GROUP@@book-service, region: unknown, msg: client timeout after 15000, last beat: 1687432128234
 
-2023-06-20 12:58:36,195 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8101_true,
+2023-06-22 20:10:27,537 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8301@Guangzhou@DEFAULT_GROUP@@borrow-service, region: unknown, msg: client timeout after 15000, last beat: 1687432126254
 
-2023-06-20 12:58:39,963 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.56.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
+2023-06-22 20:10:27,537 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8201@Guangzhou@DEFAULT_GROUP@@book-service, region: unknown, msg: client timeout after 15000, last beat: 1687432124997
 
-2023-06-20 12:58:39,964 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8102_true,192.168.56.1:8101_true,
+2023-06-22 20:10:27,537 INFO service: DEFAULT_GROUP@@book-service {POS} {IP-ENABLED} valid: 192.168.56.1:8201@Guangzhou, region: unknown, msg: client beat ok
 
-2023-06-20 12:58:43,853 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8301:unknown:Guangzhou_1.0_true_false_Guangzhou]
+2023-06-22 20:10:27,544 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8301:unknown:Guangzhou_1.0_false_false_Guangzhou]
 
-2023-06-20 12:58:43,853 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.56.1:8301_false,192.168.56.1:8301_true,192.168.56.1:8301_false,
+2023-06-22 20:10:27,544 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 
 
-2023-06-20 12:58:45,300 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8301@DEFAULT in 1, msg: tcp:ok+
+2023-06-22 20:10:27,544 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.56.1:8202:unknown:Chengdu_1.0_false_false_Chengdu]
 
-2023-06-20 12:58:48,241 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8301@Guangzhou in 1, msg: tcp:ok+
+2023-06-22 20:10:27,544 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8201_true,
 
-2023-06-20 12:58:50,305 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8301@DEFAULT in 2, msg: tcp:ok+
+2023-06-22 20:10:27,547 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8102@Chengdu@DEFAULT_GROUP@@user-service, region: unknown, msg: client timeout after 15000, last beat: 1687432128776
 
-2023-06-20 12:58:53,251 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8301@Guangzhou in 2, msg: tcp:ok+
+2023-06-22 20:10:27,547 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8101@Guangzhou@DEFAULT_GROUP@@user-service, region: unknown, msg: client timeout after 15000, last beat: 1687432125957
 
-2023-06-20 12:58:54,062 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.56.1:8301@DEFAULT, region: unknown, msg: tcp:ok+
+2023-06-22 20:10:27,550 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.56.1:8102:unknown:Chengdu_1.0_false_false_Chengdu]
 
-2023-06-20 12:58:57,013 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.56.1:8301@Guangzhou, region: unknown, msg: tcp:ok+
+2023-06-22 20:10:27,550 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8101:unknown:Guangzhou_1.0_false_false_Guangzhou]
 
-2023-06-20 13:00:20,547 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8301:unknown:Guangzhou_1.0_true_false_Guangzhou]
+2023-06-22 20:10:27,550 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
 
-2023-06-20 13:00:20,548 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.56.1:8301_true,192.168.56.1:8301_true,
+2023-06-22 20:10:28,003 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8101:unknown:Guangzhou_1.0_true_false_Guangzhou]
 
-2023-06-20 13:00:20,744 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8301@DEFAULT in 1, msg: tcp:error:Connection reset
+2023-06-22 20:10:28,003 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8101_true,
 
-2023-06-20 13:00:21,871 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8301@Guangzhou in 1, msg: tcp:timeout
+2023-06-22 20:10:28,305 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8301:unknown:Guangzhou_1.0_true_false_Guangzhou]
 
-2023-06-20 13:00:21,997 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8301@DEFAULT in 2, msg: tcp:timeout
+2023-06-22 20:10:28,305 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.56.1:8301_true,
 
-2023-06-20 13:00:22,887 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.56.1:8301@Guangzhou in 2, msg: tcp:timeout
+2023-06-22 20:10:30,279 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.56.1:8202:unknown:Chengdu_1.0_true_false_Chengdu]
 
-2023-06-20 13:00:24,003 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.56.1:8301@DEFAULT, region: unknown, msg: tcp:timeout
+2023-06-22 20:10:30,279 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8202_true,192.168.56.1:8201_true,
 
-2023-06-20 13:00:24,156 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.56.1:8301@Guangzhou, region: unknown, msg: tcp:timeout
+2023-06-22 20:10:30,822 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.56.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
 
-2023-06-20 13:00:35,490 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8301:unknown:Guangzhou_1.0_true_false_Guangzhou]
+2023-06-22 20:10:30,822 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8102_true,192.168.56.1:8101_true,
 
-2023-06-20 13:00:35,490 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.56.1:8301_false,192.168.56.1:8301_true,192.168.56.1:8301_false,
+2023-06-22 20:28:28,204 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.56.1:8202:unknown:Chengdu_1.0_true_false_Chengdu]
 
-2023-06-20 13:00:36,509 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8301@Guangzhou in 1, msg: tcp:ok+
+2023-06-22 20:28:28,204 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8201_true,
 
-2023-06-20 13:00:37,939 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8301@DEFAULT in 1, msg: tcp:ok+
+2023-06-22 20:28:28,239 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8201:unknown:Guangzhou_1.0_true_false_Guangzhou]
 
-2023-06-20 13:00:41,288 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8301@Guangzhou in 2, msg: tcp:ok+
+2023-06-22 20:28:28,239 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
 
-2023-06-20 13:00:42,951 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.56.1:8301@DEFAULT in 2, msg: tcp:ok+
+2023-06-22 20:28:28,301 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8101:unknown:Guangzhou_1.0_true_false_Guangzhou]
 
-2023-06-20 13:00:44,861 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.56.1:8301@Guangzhou, region: unknown, msg: tcp:ok+
+2023-06-22 20:28:28,301 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8102_true,
 
-2023-06-20 13:00:46,708 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.56.1:8301@DEFAULT, region: unknown, msg: tcp:ok+
+2023-06-22 20:28:28,342 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.56.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
 
-2023-06-20 13:01:31,611 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8301:unknown:Guangzhou_1.0_true_false_Guangzhou]
+2023-06-22 20:28:28,342 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
 
-2023-06-20 13:01:31,612 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.56.1:8301_true,
+2023-06-22 20:28:28,367 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8301:unknown:Guangzhou_1.0_true_false_Guangzhou]
 
-2023-06-20 13:03:21,637 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8201:unknown:Guangzhou_1.0_true_false_Guangzhou]
-
-2023-06-20 13:03:21,637 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8202_true,
-
-2023-06-20 13:03:21,674 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.56.1:8202:unknown:Chengdu_1.0_true_false_Chengdu]
-
-2023-06-20 13:03:21,674 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
-
-2023-06-20 13:03:21,706 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8101:unknown:Guangzhou_1.0_true_false_Guangzhou]
-
-2023-06-20 13:03:21,706 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8102_true,
-
-2023-06-20 13:03:21,724 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.56.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
-
-2023-06-20 13:03:21,724 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
-
-2023-06-20 13:03:21,749 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8301:unknown:Guangzhou_1.0_true_false_Guangzhou]
-
-2023-06-20 13:03:21,749 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 
-
-2023-06-20 18:43:39,316 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8201:unknown:Guangzhou_1.0_true_false_Guangzhou]
-
-2023-06-20 18:43:39,319 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8201_true,
-
-2023-06-20 18:43:41,879 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.56.1:8202:unknown:Chengdu_1.0_true_false_Chengdu]
-
-2023-06-20 18:43:41,879 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8202_true,192.168.56.1:8201_true,
-
-2023-06-20 18:43:45,306 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8101:unknown:Guangzhou_1.0_true_false_Guangzhou]
-
-2023-06-20 18:43:45,306 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8101_true,
-
-2023-06-20 18:43:48,230 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.56.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
-
-2023-06-20 18:43:48,230 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8102_true,192.168.56.1:8101_true,
-
-2023-06-20 18:43:53,432 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8301:unknown:Guangzhou_1.0_true_false_Guangzhou]
-
-2023-06-20 18:43:53,433 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.56.1:8301_true,
-
-2023-06-20 18:58:19,624 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8301:unknown:Guangzhou_1.0_true_false_Guangzhou]
-
-2023-06-20 18:58:19,624 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 
-
-2023-06-20 18:58:37,652 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8301:unknown:Guangzhou_1.0_true_false_Guangzhou]
-
-2023-06-20 18:58:37,652 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.56.1:8301_true,
-
-2023-06-20 19:21:25,002 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8202_true,192.168.56.1:8201_true,
-
-2023-06-20 19:21:50,248 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8202_true,192.168.56.1:8201_true,
-
-2023-06-20 19:32:08,906 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8201:unknown:Guangzhou_1.0_true_false_Guangzhou]
-
-2023-06-20 19:32:08,906 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8202_true,
-
-2023-06-20 19:32:08,936 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.56.1:8202:unknown:Chengdu_1.0_true_false_Chengdu]
-
-2023-06-20 19:32:08,936 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
-
-2023-06-20 19:32:08,958 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8101:unknown:Guangzhou_1.0_true_false_Guangzhou]
-
-2023-06-20 19:32:08,958 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8102_true,
-
-2023-06-20 19:32:09,000 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.56.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
-
-2023-06-20 19:32:09,000 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
-
-2023-06-20 19:32:09,023 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8301:unknown:Guangzhou_1.0_true_false_Guangzhou]
-
-2023-06-20 19:32:09,023 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 
-
-2023-06-20 20:16:25,275 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8201:unknown:Guangzhou_1.0_true_false_Guangzhou]
-
-2023-06-20 20:16:25,279 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8201_true,
-
-2023-06-20 20:16:27,725 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.56.1:8202:unknown:Chengdu_1.0_true_false_Chengdu]
-
-2023-06-20 20:16:27,725 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.56.1:8202_true,192.168.56.1:8201_true,
-
-2023-06-20 20:16:30,355 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8101:unknown:Guangzhou_1.0_true_false_Guangzhou]
-
-2023-06-20 20:16:30,355 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8101_true,
-
-2023-06-20 20:16:33,697 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.56.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
-
-2023-06-20 20:16:33,697 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8102_true,192.168.56.1:8101_true,
-
-2023-06-20 20:16:39,750 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8301:unknown:Guangzhou_1.0_true_false_Guangzhou]
-
-2023-06-20 20:16:39,750 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.56.1:8301_true,
-
-2023-06-20 20:29:27,554 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8101:unknown:Guangzhou_1.0_true_false_Guangzhou]
-
-2023-06-20 20:29:27,554 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8102_true,
-
-2023-06-20 20:29:27,568 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.56.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
-
-2023-06-20 20:29:27,569 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
-
-2023-06-20 20:30:53,592 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8101:unknown:Guangzhou_1.0_true_false_Guangzhou]
-
-2023-06-20 20:30:53,592 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8101_true,
-
-2023-06-20 20:30:55,888 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.56.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
-
-2023-06-20 20:30:55,888 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8102_true,192.168.56.1:8101_true,
-
-2023-06-20 20:45:47,893 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.56.1:8101:unknown:Guangzhou_1.0_true_false_Guangzhou]
-
-2023-06-20 20:45:47,893 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8102_true,
-
-2023-06-20 20:45:47,926 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.56.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
-
-2023-06-20 20:45:47,926 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
-
-2023-06-20 20:46:14,571 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.56.1:8101:unknown:Guangzhou_1.0_true_false_Guangzhou]
-
-2023-06-20 20:46:14,571 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8101_true,
-
-2023-06-20 20:46:16,355 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.56.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
-
-2023-06-20 20:46:16,355 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.56.1:8102_true,192.168.56.1:8101_true,
+2023-06-22 20:28:28,367 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 
 

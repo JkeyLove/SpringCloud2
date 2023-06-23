@@ -1,6 +1,2 @@
-2023-06-20 20:19:36,730 INFO [dump-task] add task. groupKey=user-service-dev.yml+DEFAULT_GROUP, taskKey=user-service-dev.yml+DEFAULT_GROUP++false+null
-
-2023-06-20 20:43:56,000 INFO [dump-task] add task. groupKey=user-service-dev.yml+DEFAULT_GROUP, taskKey=user-service-dev.yml+DEFAULT_GROUP++false+null
-
-2023-06-20 20:50:56,459 INFO [dump-task] add task. groupKey=user-service-dev.yml+DEFAULT_GROUP, taskKey=user-service-dev.yml+DEFAULT_GROUP++false+null
+2023-06-22 16:41:50,686 INFO [dump-all-ok] user-service-dev.yml+DEFAULT_GROUP, 1687265456454, length=261, md5=cfe6a83d1fe882f1a7bc7bd5780ccb37
 
