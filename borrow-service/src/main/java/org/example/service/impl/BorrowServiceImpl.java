@@ -1,5 +1,6 @@
 package org.example.service.impl;
 
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import org.example.entity.Book;
 import org.example.entity.Borrow;
 import org.example.entity.User;
@@ -26,6 +27,7 @@ public class BorrowServiceImpl implements BorrowService {
     @Resource
     BookClient bookClient;
 
+    @SentinelResource("getBorrow")       //监控此方法，无论被谁执行都在监控范围内，value是自定义的，并且该注解可以加刀任何方法上
     @Override
     public UserBorrowDetail getUserBorrowDetailByUid(int uid) {
         List<Borrow> borrow = mapper.getBorrowsByUid(uid);
