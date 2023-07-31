@@ -1,74 +1,38 @@
-2023-07-30 00:12:32,293 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.0.5:8301:unknown:Guangzhou_1.0_true_false_Guangzhou]
+2023-08-01 01:26:00,994 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.0.5:8301:unknown:Guangzhou_1.0_true_false_Guangzhou]
 
-2023-07-30 00:12:32,304 INFO [IP-UPDATED] namespace: f2c7711b-6df9-40c2-b83a-f608dec27a9a, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.0.5:8301_true,
+2023-08-01 01:26:00,999 INFO [IP-UPDATED] namespace: f2c7711b-6df9-40c2-b83a-f608dec27a9a, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.0.5:8301_true,
 
-2023-07-30 00:12:35,850 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.0.5:8301@Guangzhou in 1, msg: tcp:timeout
+2023-08-01 01:26:01,194 INFO [IP-UPDATED] namespace: f2c7711b-6df9-40c2-b83a-f608dec27a9a, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.0.5:8301_true,
 
-2023-07-30 00:12:38,902 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.0.5:8301@Guangzhou in 2, msg: tcp:timeout
+2023-08-01 01:26:01,195 INFO [IP-UPDATED] namespace: f2c7711b-6df9-40c2-b83a-f608dec27a9a, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.0.5:8301_true,
 
-2023-07-30 00:12:42,720 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.0.5:8301@Guangzhou, region: unknown, msg: tcp:timeout
+2023-08-01 01:26:03,974 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.0.5:8301@Guangzhou in 1, msg: tcp:timeout
 
-2023-07-30 00:17:04,438 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.0.5:8202:unknown:Chengdu_1.0_true_false_Chengdu]
+2023-08-01 01:26:06,436 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.0.5:8301@Guangzhou in 2, msg: tcp:timeout
 
-2023-07-30 00:17:04,439 INFO [IP-UPDATED] namespace: f2c7711b-6df9-40c2-b83a-f608dec27a9a, service: DEFAULT_GROUP@@book-service, ips: 192.168.0.5:8202_true,
+2023-08-01 01:26:09,521 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.0.5:8301@Guangzhou, region: unknown, msg: tcp:timeout
 
-2023-07-30 00:17:07,417 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.0.5:8201:unknown:Guangzhou_1.0_true_false_Guangzhou]
+2023-08-01 01:28:26,179 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.0.5:8202:unknown:Chengdu_1.0_true_false_Chengdu]
 
-2023-07-30 00:17:07,417 INFO [IP-UPDATED] namespace: f2c7711b-6df9-40c2-b83a-f608dec27a9a, service: DEFAULT_GROUP@@book-service, ips: 192.168.0.5:8202_true,192.168.0.5:8201_true,
+2023-08-01 01:28:26,180 INFO [IP-UPDATED] namespace: f2c7711b-6df9-40c2-b83a-f608dec27a9a, service: DEFAULT_GROUP@@book-service, ips: 192.168.0.5:8202_true,
 
-2023-07-30 00:17:15,804 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.0.5:8101:unknown:Guangzhou_1.0_true_false_Guangzhou]
+2023-08-01 01:28:28,579 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.0.5:8201:unknown:Guangzhou_1.0_true_false_Guangzhou]
 
-2023-07-30 00:17:15,804 INFO [IP-UPDATED] namespace: f2c7711b-6df9-40c2-b83a-f608dec27a9a, service: DEFAULT_GROUP@@user-service, ips: 192.168.0.5:8101_true,
+2023-08-01 01:28:28,579 INFO [IP-UPDATED] namespace: f2c7711b-6df9-40c2-b83a-f608dec27a9a, service: DEFAULT_GROUP@@book-service, ips: 192.168.0.5:8202_true,192.168.0.5:8201_true,
 
-2023-07-30 00:17:21,733 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.0.5:8102:unknown:Chengdu_1.0_true_false_Chengdu]
+2023-08-01 01:28:34,977 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Guangzhou, new ips size: 1, content: [192.168.0.5:8101:unknown:Guangzhou_1.0_true_false_Guangzhou]
 
-2023-07-30 00:17:21,734 INFO [IP-UPDATED] namespace: f2c7711b-6df9-40c2-b83a-f608dec27a9a, service: DEFAULT_GROUP@@user-service, ips: 192.168.0.5:8102_true,192.168.0.5:8101_true,
+2023-08-01 01:28:34,977 INFO [IP-UPDATED] namespace: f2c7711b-6df9-40c2-b83a-f608dec27a9a, service: DEFAULT_GROUP@@user-service, ips: 192.168.0.5:8101_true,
 
-2023-07-30 00:17:25,190 INFO [IP-UPDATED] namespace: f2c7711b-6df9-40c2-b83a-f608dec27a9a, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.0.5:8301_false,
+2023-08-01 01:28:39,628 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.0.5:8102:unknown:Chengdu_1.0_true_false_Chengdu]
 
-2023-07-30 00:17:27,438 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.0.5:8301@Guangzhou in 1, msg: tcp:ok+
+2023-08-01 01:28:39,628 INFO [IP-UPDATED] namespace: f2c7711b-6df9-40c2-b83a-f608dec27a9a, service: DEFAULT_GROUP@@user-service, ips: 192.168.0.5:8102_true,192.168.0.5:8101_true,
 
-2023-07-30 00:17:32,452 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.0.5:8301@Guangzhou in 2, msg: tcp:ok+
+2023-08-01 01:28:46,493 INFO [IP-UPDATED] namespace: f2c7711b-6df9-40c2-b83a-f608dec27a9a, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.0.5:8301_false,
 
-2023-07-30 00:17:36,207 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.0.5:8301@Guangzhou, region: unknown, msg: tcp:ok+
+2023-08-01 01:28:47,995 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.0.5:8301@Guangzhou in 1, msg: tcp:ok+
 
-2023-07-30 02:21:43,666 INFO [IP-UPDATED] namespace: f2c7711b-6df9-40c2-b83a-f608dec27a9a, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.0.5:8301_true,
+2023-08-01 01:28:53,002 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.0.5:8301@Guangzhou in 2, msg: tcp:ok+
 
-2023-07-30 02:21:44,764 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.0.5:8301@Guangzhou in 1, msg: tcp:timeout
-
-2023-07-30 02:21:45,779 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.0.5:8301@Guangzhou in 2, msg: tcp:timeout
-
-2023-07-30 02:21:47,027 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.0.5:8301@Guangzhou, region: unknown, msg: tcp:timeout
-
-2023-07-30 02:22:07,241 INFO [IP-UPDATED] namespace: f2c7711b-6df9-40c2-b83a-f608dec27a9a, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.0.5:8301_false,
-
-2023-07-30 02:22:09,162 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.0.5:8301@Guangzhou in 1, msg: tcp:ok+
-
-2023-07-30 02:22:14,165 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.0.5:8301@Guangzhou in 2, msg: tcp:ok+
-
-2023-07-30 02:22:17,920 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.0.5:8301@Guangzhou, region: unknown, msg: tcp:ok+
-
-2023-07-30 02:48:44,844 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.0.5:8202:unknown:Chengdu_1.0_true_false_Chengdu]
-
-2023-07-30 02:48:44,844 INFO [IP-UPDATED] namespace: f2c7711b-6df9-40c2-b83a-f608dec27a9a, service: DEFAULT_GROUP@@book-service, ips: 192.168.0.5:8201_true,
-
-2023-07-30 02:48:53,603 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.0.5:8201:unknown:Guangzhou_1.0_true_false_Guangzhou]
-
-2023-07-30 02:48:53,604 INFO [IP-UPDATED] namespace: f2c7711b-6df9-40c2-b83a-f608dec27a9a, service: DEFAULT_GROUP@@book-service, ips: 
-
-2023-07-30 02:49:01,381 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Guangzhou, dead ips size: 1, content: [192.168.0.5:8101:unknown:Guangzhou_1.0_true_false_Guangzhou]
-
-2023-07-30 02:49:01,382 INFO [IP-UPDATED] namespace: f2c7711b-6df9-40c2-b83a-f608dec27a9a, service: DEFAULT_GROUP@@user-service, ips: 192.168.0.5:8102_true,
-
-2023-07-30 02:49:09,927 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.0.5:8102:unknown:Chengdu_1.0_true_false_Chengdu]
-
-2023-07-30 02:49:09,927 INFO [IP-UPDATED] namespace: f2c7711b-6df9-40c2-b83a-f608dec27a9a, service: DEFAULT_GROUP@@user-service, ips: 
-
-2023-07-30 02:49:17,828 INFO [IP-UPDATED] namespace: f2c7711b-6df9-40c2-b83a-f608dec27a9a, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.0.5:8301_true,
-
-2023-07-30 02:49:18,562 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.0.5:8301@Guangzhou in 1, msg: tcp:timeout
-
-2023-07-30 02:49:19,587 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.0.5:8301@Guangzhou in 2, msg: tcp:timeout
-
-2023-07-30 02:49:20,844 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.0.5:8301@Guangzhou, region: unknown, msg: tcp:timeout
+2023-08-01 01:28:56,760 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.0.5:8301@Guangzhou, region: unknown, msg: tcp:ok+
 
